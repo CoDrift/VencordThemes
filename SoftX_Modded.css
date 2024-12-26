@@ -89,6 +89,7 @@
    * SoftX variables
    */
   
+  --background-image: url("https://4kwallpapers.com/images/wallpapers/xiaomi-pad-7-pro-3840x2160-19801.jpg"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: 0, 231, 169; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
   --channels-width: 300px; /* Width of the channels list. | Default: 300px */
@@ -133,7 +134,8 @@ body,
 }
 
 .bg_d4b6c5 {
-  background-color: #0c343d;
+  background-image: var(--background-image);
+  background-color: transparent;
   background-attachment: var(--background-attachment, fixed);
   background-size: var(--background-size, cover);
   background-position: var(--background-position, center);
@@ -265,7 +267,7 @@ html.theme-light .container_b2ca13 {
 #app-mount .children_fc4f04 .status__2a4a6::after {
   content: attr(aria-label);
   margin-left: 8px;
-  font-size: 13px;
+  font-size: 12px;
   color: var(--text-normal);
 }
 #app-mount .children_fc4f04 .status__2a4a6 svg {
@@ -2057,10 +2059,10 @@ body .container_d6cb89,
 }
 #app-mount .search_a46bef.focused_a46bef .public-DraftEditor-content {
   cursor: text;
-  font-size: 20px;
+  font-size: 16px;
 }
 #app-mount .search_a46bef.focused_a46bef .public-DraftEditorPlaceholder-root {
-  font-size: 20px;
+  font-size: 16px;
 }
 #app-mount .search_a46bef.focused_a46bef .icon_a46bef {
   width: 56px;
@@ -2357,7 +2359,7 @@ body .container_d6cb89,
 #app-mount .emojiPicker_c6ee36 [class^=searchBar] [class^=input_],
 #app-mount .emojiPicker_c6ee36 .container_effbe2 [class^=input_],
 #app-mount .emojiPicker_c6ee36 .container_c18ec9 [class^=input_] {
-  font-size: 14px;
+  font-size: 16px;
   height: 26px;
 }
 #app-mount .wrapper_d8cdac [class^=searchBar] [class^=iconLayout_],
@@ -3997,7 +3999,7 @@ body .container_d6cb89,
   background: transparent;
   padding: 10px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 #app-mount .ChannelDms-channelmembers-header .item-3XjbnG.selected-g-kMVV {
   background: rgb(var(--accent), 0.1);
