@@ -88,7 +88,7 @@
   /*
    * SoftX variables
    */
-  --background-image: url("https://i.imgur.com/Nglfni6.png"); /* Background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  
   --background-blur: 0px; /* Blur intensity of --background-image | Must end in px | Default: 0px */
   --accent: 0, 231, 169; /* Colour used around the app. | Values are in R,G,B format. | Default: 0, 231, 169 */
   --channels-width: 300px; /* Width of the channels list. | Default: 300px */
@@ -133,8 +133,7 @@ body,
 }
 
 .bg_d4b6c5 {
-  background-image: var(--background-image);
-  background-color: transparent;
+  background-color: #0c343d;
   background-attachment: var(--background-attachment, fixed);
   background-size: var(--background-size, cover);
   background-position: var(--background-position, center);
@@ -2058,10 +2057,10 @@ body .container_d6cb89,
 }
 #app-mount .search_a46bef.focused_a46bef .public-DraftEditor-content {
   cursor: text;
-  font-size: 24px;
+  font-size: 20px;
 }
 #app-mount .search_a46bef.focused_a46bef .public-DraftEditorPlaceholder-root {
-  font-size: 24px;
+  font-size: 20px;
 }
 #app-mount .search_a46bef.focused_a46bef .icon_a46bef {
   width: 56px;
