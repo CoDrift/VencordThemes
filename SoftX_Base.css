@@ -14,9 +14,9 @@
   --saturation: 0%;
   --lightness: 10%;
   --transition: 0.15s ease;
-  --chat-glow-intensity: var(--glow-intensity);
+  --chat-glow-intensity: 0;
   --channel-glow-intensity: var(--glow-intensity);
-  --members-glow-intensity: var(--glow-intensity);
+  --members-glow-intensity: 0;
   --input-glow-intensity: var(--glow-intensity);
   --server-glow-intensity: var(--glow-intensity);
   --talking-bar: rgb(var(--accent));
@@ -55,8 +55,8 @@
   --discord-red: 359 calc(var(--saturation-factor, 1) * 82.6%) 59.4%;
   --discord-green: 139 calc(var(--saturation-factor, 1) * 47.3%) 43.9%;
   --settings-sidebar-width: 300px;
-  --settings-content-width: 900px;
-  --settings-max-height: 800px;
+  --settings-content-width: 1520px;
+  --settings-max-height: 980px;
   --settings-max-width: calc(var(--settings-sidebar-width) + var(--settings-content-width));
   --text-link: rgb(var(--accent));
   --font-primary: var(--font, "Whitney");
@@ -4447,4 +4447,8 @@ body #ChannelsPreview::before {
 
 .pill_db6521 {
   display: none;
+}
+
+* {
+  font-size: 18px;
 }
